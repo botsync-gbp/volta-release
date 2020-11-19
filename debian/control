@@ -1,0 +1,12 @@
+Source: ros-melodic-volta-navigation
+Section: misc
+Priority: optional
+Maintainer: Mahendra L Seervi <mahendra.l@botsync.co>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-volta-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-amcl, ros-melodic-dwa-local-planner, ros-melodic-global-planner, ros-melodic-gmapping, ros-melodic-map-server, ros-melodic-move-base
+Description: The volta_navigation package
