@@ -1,0 +1,22 @@
+ros-melodic-volta-teleoperator (1.1.1-1bionic) bionic; urgency=high
+
+  * Updated yaml config and launch files.
+  * Merge branch 'kinetic-devel-r2-update' into melodic-devel
+  * Merge branch 'melodic-devel' into kinetic-devel-r2-update
+  * updated sensor_read.py file. Added install configuration in CMakeLists.txt
+  * Added install configuration in CMakeLists.txt
+  * Merged volta_development.
+  * Merged volta_development.
+  * Added BSD-3 license
+  * renamed the launch file for volta_teleoperator
+  * Contributors: Nikhil Venkatesh, Toship
+
+ -- Nikhil Venkatesh <nilhil@botsync.co>  Sun, 21 Mar 2021 18:30:00 -0000
+
+ros-melodic-volta-teleoperator (1.1.0-1bionic) bionic; urgency=high
+
+  * First Release
+
+ -- Mahendra L Seervi <mahendra.l@botsync.co>  Wed, 18 Nov 2020 18:30:00 -0000
+
+
