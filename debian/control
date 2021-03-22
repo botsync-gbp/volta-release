@@ -1,0 +1,12 @@
+Source: ros-melodic-volta-control
+Section: misc
+Priority: optional
+Maintainer: Nikhil Venkatesh <nilhil@botsync.co>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-controller-manager, ros-melodic-diff-drive-controller, ros-melodic-joint-state-controller, ros-melodic-twist-mux
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-volta-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-controller-manager, ros-melodic-diff-drive-controller, ros-melodic-joint-state-controller, ros-melodic-twist-mux
+Description: The volta_control package
