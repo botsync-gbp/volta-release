@@ -1,0 +1,12 @@
+Source: ros-kinetic-volta-control
+Section: misc
+Priority: optional
+Maintainer: Nikhil Venkatesh <nilhil@botsync.co>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-controller-manager, ros-kinetic-diff-drive-controller, ros-kinetic-joint-state-controller, ros-kinetic-twist-mux
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-volta-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-manager, ros-kinetic-diff-drive-controller, ros-kinetic-joint-state-controller, ros-kinetic-twist-mux
+Description: The volta_control package
