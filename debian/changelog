@@ -1,0 +1,25 @@
+ros-kinetic-volta-rules (1.0.1-1xenial) xenial; urgency=high
+
+  * Fixed versions
+  * Updated yaml config, launch files and License
+  * Kinetic devel r2 update to kinetic-devel (#9 <https://github.com/botsync/volta/issues/9>)
+    * Merged volta_development.
+    * Merged volta_development.
+    * Added install configuration in CMakeLists.txt
+    * updated sensor_read.py file. Added install configuration in CMakeLists.txt
+    Co-authored-by: nikhil-botsync <mailto:64353067+nikhil-botsync@users.noreply.github.com>
+  * Kinetic devel r2 update to Kinetic (#7 <https://github.com/botsync/volta/issues/7>)
+    * Merged volta_development.
+    * Merged volta_development.
+    * Added install configuration in CMakeLists.txt
+  * Contributors: Toship
+
+ -- Nikhil Venkatesh <nilhil@botsync.co>  Sun, 21 Mar 2021 18:30:00 -0000
+
+ros-kinetic-volta-rules (1.0.0-1xenial) xenial; urgency=high
+
+  * First Release
+
+ -- Mahendra L Seervi <mahendra.l@botsync.co>  Wed, 18 Nov 2020 18:30:00 -0000
+
+
