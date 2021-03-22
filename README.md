@@ -45,11 +45,11 @@ $ rosrun map_server map_saver –f <filename>
 ### 3. Navigation with Volta
 * Launch the move_base node by running:   
 ```
-$ roslaunch volta_base volta_bringup.launch   
+$ roslaunch volta_base bringup.launch   
 ```
 * Launch the sensors node by running:    
 ```
-$ roslaunch volta_base volta_bringup.launch   
+$ roslaunch volta_base bringup.launch   
 ```
 * To perform the Autonomous navigation, launch the navigation package by running   
 ```
