@@ -1,0 +1,12 @@
+Source: ros-noetic-volta-localization
+Section: misc
+Priority: optional
+Maintainer: Nikhil Venkatesh <nilhil@botsync.co>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-robot-localization
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-volta-localization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-robot-localization
+Description: The volta_localization package
