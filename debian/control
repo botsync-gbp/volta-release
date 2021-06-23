@@ -1,0 +1,12 @@
+Source: ros-noetic-volta-rules
+Section: misc
+Priority: optional
+Maintainer: Nikhil Venkatesh <nilhil@botsync.co>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-volta-rules
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-usb
+Description: The volta_rules package
