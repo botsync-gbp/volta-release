@@ -1,0 +1,12 @@
+Source: ros-noetic-volta-navigation
+Section: misc
+Priority: optional
+Maintainer: Nikhil Venkatesh <nilhil@botsync.co>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-volta-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-amcl, ros-noetic-dwa-local-planner, ros-noetic-global-planner, ros-noetic-gmapping, ros-noetic-map-server, ros-noetic-move-base
+Description: The volta_navigation package
