@@ -1,0 +1,12 @@
+Source: ros-noetic-volta-control
+Section: misc
+Priority: optional
+Maintainer: Nikhil Venkatesh <nilhil@botsync.co>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-controller-manager, ros-noetic-diff-drive-controller, ros-noetic-joint-state-controller, ros-noetic-twist-mux
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-volta-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-controller-manager, ros-noetic-diff-drive-controller, ros-noetic-joint-state-controller, ros-noetic-twist-mux
+Description: The volta_control package
